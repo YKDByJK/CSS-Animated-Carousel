@@ -111,7 +111,8 @@ body a {
   color: #ffffff;
   font-size: 0.875em;
 }
-.main-header .header-wrapper .main-menu li a:hover {
+.main-header .header-wrapper .main-menu li a:hover,
+.main-header .header-wrapper .main-menu li a:focus {
   color: #fce38a;
   border-bottom: 0.1875em solid #fce38a;
   transition: .1s;
@@ -123,7 +124,9 @@ body a {
   padding: 0.75em 0;
 }
 .main-header .header-wrapper .main-menu li:nth-child(6) a:hover,
-.main-header .header-wrapper .main-menu li:last-child a:hover {
+.main-header .header-wrapper .main-menu li:nth-child(6) a:focus,
+.main-header .header-wrapper .main-menu li:last-child a:hover,
+.main-header .header-wrapper .main-menu li:last-child a:focus {
   border: none;
 }
 /* Section-1 Styles */
@@ -196,7 +199,8 @@ body a {
   text-transform: uppercase;
   border: 0.1875em solid #ffffff;
 }
-#section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:hover {
+#section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:hover,
+#section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:focus {
   color: #e88382;
   border-color: #e88382;
   transition: .3s;
